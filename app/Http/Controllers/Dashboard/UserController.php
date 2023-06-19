@@ -42,7 +42,6 @@ class UserController extends Controller
     }
 
     public function index(){
-        $user = Auth::user();
         return view('panel.user.dashboard');
     }
 
@@ -171,7 +170,7 @@ class UserController extends Controller
 
         //check if any payment gateway enabled
         $activeGateways = Gateways::where("is_active", 1)->get();
-        if($activeGateways->count() > 0){
+        if($activeGateways->count() > 0 ){
             $is_active_gateway = 1;
         }else{
             $is_active_gateway = 0;
