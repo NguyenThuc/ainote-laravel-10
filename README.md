@@ -18,4 +18,4 @@ open browse localhost:8000
 ## demo 
 https://ainote.com.au/
 
-<img src="./screen.png" width="400">
+<img src="./screencapture-ainote-au-2023-07-08-18_26_52.png" width="400">
