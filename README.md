@@ -1,20 +1,8 @@
-# ainote-laravel-9
+# ainote-laravel-10
 
-## Laravel + tailwind css 
-```bash
-
-# Installation
-$ composer install
-
-composer dump-autoload
-
-# serve start 
-$ php artisan serve 
-open browse localhost:8000
-
-```
-
-
+## Laravel + tailwind css + Vite
+## Connect payment gateway paypal , stripe api 
+## Connect open AI copywriting api
 ## demo 
 https://ainote.com.au/
 
